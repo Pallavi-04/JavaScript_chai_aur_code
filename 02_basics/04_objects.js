@@ -67,4 +67,36 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 // Har ek key-value ko array banata
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //checks if the property exists in the object
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //checks if the property exists in the object
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// OBJECT DESTRUCTURING -----------------
+const navbar = ({company}) => { // company is props
+
+}
+
+// navbar(company = "hitesh");
+
+// API comes in JSON format
+// {
+//     "name" : "Pallavi",
+//     "age" : 23
+// }
+
+[
+    {},
+    {},
+    {}
+]
