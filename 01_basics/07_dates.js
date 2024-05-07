@@ -20,11 +20,11 @@ console.log(myDate.getMonth());
 // let theDate = new Date(2024, 0, 1, 5, 3);
 // let theDate = new Date("2024-11-04");
 let theDate = new Date("04-11-2024");
-console.log(theDate.toLocaleString());
 
 theDate.toLocaleString('default', {
     weekday: "long"
 })
+console.log(theDate.toLocaleString());
 
 
 let myTimeStamp = Date.now();

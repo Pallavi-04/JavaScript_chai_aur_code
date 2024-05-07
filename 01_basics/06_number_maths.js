@@ -7,14 +7,14 @@ console.log(typeof num);        // object
 const number = new Number(300);
 // console.log(typeof number);     // object
 
-// console.log(typeof number.toString());
+console.log(typeof number.toString());
 
-// console.log(number.toFixed(2));
-// console.log(number.toPrecision(2));
+console.log(number.toFixed(2));
+console.log(number.toPrecision(2));
 
-// console.log(number.toString().repeat(3));
+console.log(number.toString().repeat(3));
 
-// console.log(number.toString().valueOf());
+console.log(number.toString().valueOf());
 
 const hundreds = 100000000;
 console.log(hundreds.toLocaleString());     // commas lag jayega

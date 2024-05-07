@@ -35,3 +35,13 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1, 3);
 console.log("C", myArr);
 console.log(myn2);
+
+// The slice() function creates a duplicate of a specified section of an array in a new array object.  
+// The original array is not modified.
+// The slice() method creates shallow copies, not deep copies. 
+// It copies object references into a new array instead of entire objects
+
+// The SPLICE() --- The splice() function modifies an array by deleting, replacing, or inserting entries at a specified index.
+// Returns an array containing the deleted elements. If only elements are added, it returns an empty array
+
+// https://www.simplilearn.com/javascript-slice-vs-splice-article

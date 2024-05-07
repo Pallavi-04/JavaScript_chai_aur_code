@@ -16,7 +16,6 @@ const dc_heroes = ["superman", "flash", "batman"]
     // console.log(all_new_heroes);
 
 
-
 // -------- Spreading the nested array elements in a single array ----------
 const another_array = [1, 2, 3, [4, 5, 6], [6, 7, [8, 9]]]
 
