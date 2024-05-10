@@ -42,7 +42,7 @@ function addOne(num) {
     return num + 1;
 }
 
-// addTwo(5);  // Cannot access 'addTwo' before initialization
+addTwo(5);  // Cannot access 'addTwo' before initialization as addTwo() is stored in
 // Function Expression
 const addTwo = function(num) {
     return num + 2;

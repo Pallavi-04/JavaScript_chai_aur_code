@@ -44,6 +44,7 @@ function handleObject(anyObject) {
     console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
 }
 // handleObject(user);
+// directly pass on the object in key value pairs
 handleObject({
     username: "Sam",
     price: 399

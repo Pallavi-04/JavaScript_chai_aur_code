@@ -10,7 +10,7 @@
 //_____________ NAMED IIFE _________________________
 (function chai() {          
     console.log(`DB Connected`);
-})();   // Explici semi-colon ;
+})();   // Explicit semi-colon ;
 
 // **********IIFE gets invoked but it doesn't know where to stop the context
 // For this, JS has to end the scope or context by ;

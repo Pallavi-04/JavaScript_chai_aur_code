@@ -15,9 +15,9 @@ myArr.pop()
 // console.log(myArr);
 
 myArr.unshift(9)
-// console.log(myArr);
+// console.log(myArr);  // push from start
 
-myArr.shift()
+myArr.shift()           // pop from start
 // console.log(myArr);
 
 console.log(myArr.includes(9));
@@ -39,9 +39,9 @@ console.log(myn2);
 // The slice() function creates a duplicate of a specified section of an array in a new array object.  
 // The original array is not modified.
 // The slice() method creates shallow copies, not deep copies. 
-// It copies object references into a new array instead of entire objects
+// It copies object references into a new array instead of entire objects.
 
 // The SPLICE() --- The splice() function modifies an array by deleting, replacing, or inserting entries at a specified index.
-// Returns an array containing the deleted elements. If only elements are added, it returns an empty array
+// Returns an array containing the deleted elements. If only elements are added, it returns an empty array.
 
 // https://www.simplilearn.com/javascript-slice-vs-splice-article

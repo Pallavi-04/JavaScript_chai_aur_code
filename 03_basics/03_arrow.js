@@ -76,7 +76,9 @@ user.welcomeMessage();
 // const addTwo = (num1, num2) => ( num1 + num2 );   // PArantheses instead of curly braces
 
 // To return object, wrap it in parantheses.
-const addTwo = (num1, num2) => ({username: "pallavi"})
+const addTwo = (num1, num2) => ({username: "pallavi",
+    result: num1 + num2
+})
 console.log(addTwo(4, 5));
 
 const myArr = [2, 5, 7, 9, 15]
